@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: 100% 130px;
+    border: 1px solid #ff80ff;
+    height: 130px;
+    width: 100%;
+}
+.menu{
+    border: 1px solid #1aff8c;
+    height: 50px;
+    width: 100%;
+    background: #7FFF00;
+    line-height: 30px;
+}
+ul.list-menu {
+    margin: 0 auto;
+    padding: 0;
+    width: 60%;
+    list-style: none;
+    margin: 0 auto;
+}
+ul.list-menu li {
+    float: left;
+    margin: 7px;
+    padding: 2px;
+}
+ul.list-menu li:hover {
+    background: burlywood;
+}
+ul.list-menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: #3333ff;
+}
+#main{
+    border: 1px solid #00ff80;
+    height: auto;
+    width: 100%;
+}
+
+.sidebar{
+    border: 1px solid #A52A2A;
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+    background-color: #b3d9ff;
+}
+ul.list-sidebar {
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    margin-left: 2px;
+    line-height: 27px;;
+}
+ul.list-sidebar li {
+    margin: 7px;
+    padding: 2px;
+}
+ul.list-sidebar li:hover {
+    background: #ff6600;
+}
+ul.list-sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: #3333ff;
+    display: block;
+}
+ul.list-sidebar li a:hover{
+    color: white;
+}
+.main-content{
+    border: 1px solid #8A2BE2;
+    height: auto;
+    width: 78%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+    background-color: #b3d9ff;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li {
+    width: 20%;
+    list-style: none;
+    border: 1px dashed #000;
+    margin: 25px;
+    float: left;
+}
+ul.product_list li img {
+    width: 100%;
+}
+ul.product_list li a {
+    text-decoration: none;
+}
+ul.product_list li p {
+    font-size: 10px;
+    text-align: center;
+    margin: 2px;
+    color: black;
+}
+ul.product_list li p.price_product{
+    color: red;
+}
+.footer{
+    border: 1px solid #ff1a8c;
+    height: 150px;
+    width: 100%;
+    background: #7FFFD4;
+}
+.footer p {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #000;
+}
+.clear{
+    clear: both;
+}
