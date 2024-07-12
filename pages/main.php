@@ -24,22 +24,6 @@
                         break;
                         default: include("main/index.php");
                     }
-                    // if($tam == 'danhmucsanpham')
-                    // {
-                    //     include("main/danhmuc.php");
-                    // }
-                    // else if($tam == 'giohang')
-                    // {
-                    //     include("main/giohang.php");
-                    // }
-                    // else if($tam == 'tintuc')
-                    // {
-                    //     include("main/tintuc.php");
-                    // }
-                    // else
-                    // {
-                    //     include("main/index.php");
-                    // }
                 ?>
             </div>
 </div>
